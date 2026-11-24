@@ -1,0 +1,6 @@
+# Local-only build creator; keep the public gallery static.
+/html/statcheck.html
+/css/statcheck.css
+/js/build-cards.js
+/js/champion-roles.js
+/js/statcheck.js

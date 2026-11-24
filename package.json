@@ -1,0 +1,20 @@
+{
+  "name": "slipixtrollpix",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/KartToonOFF/SlipixTrollPix#readme",
+  "bugs": {
+    "url": "https://github.com/KartToonOFF/SlipixTrollPix/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KartToonOFF/SlipixTrollPix.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

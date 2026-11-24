@@ -1,11 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SlipixTrollPix</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#140b1b">
+    <meta name="description" content="Découvre les builds League of Legends publiés sur SlipixTrollPix.">
+    <title>Builds | SLIPIXTROLLPIX</title>
+    <link rel="stylesheet" href="css/top.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <script src="js/static-builds.js" defer></script>
+    <script src="js/main.js" defer></script>
 </head>
 <body>
-    <p>Hello le site est en dev revenez plus tard :)</p>
+    <a class="skip-link" href="#main">Aller au contenu</a>
+
+    <div class="announcement">
+        <p>SLIPIXTROLLPIX <span aria-hidden="true">✦</span> Builds League of Legends</p>
+    </div>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="brand" href="#" aria-label="SlipixTrollPix, accueil">
+                <span class="brand-mark" aria-hidden="true"><span>STP</span></span>
+                <span class="brand-copy"><strong>SLIPIXTROLLPIX</strong><small>BUILDS COMMUNAUTAIRES</small></span>
+            </a>
+
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+                <span class="sr-only">Ouvrir le menu</span>
+                <span></span><span></span><span></span>
+            </button>
+
+            <nav class="primary-nav" id="primary-nav" aria-label="Navigation principale">
+                <a href="#cards">Les builds</a>
+            </nav>
+        </div>
+        <div class="header-flourish" aria-hidden="true"></div>
+    </header>
+
+    <main id="main">
+        <section class="shop-content build-section" id="cards" aria-labelledby="cards-title">
+            <div class="section-heading">
+                <div><p class="eyebrow">La galerie SlipixTrollPix</p><h2 id="cards-title">Cartes de builds</h2></div>
+                <p>Un champion, son équipement complet et sa page de runes.</p>
+            </div>
+            <p class="storage-notice">Cette galerie affiche les builds publics ajoutés dans <code>js/static-builds.js</code>.</p>
+            <p class="cards-status" id="cards-status" role="status" aria-live="polite"></p>
+            <div class="build-card-grid" id="build-card-grid" aria-live="polite"></div>
+            <div class="empty-builds" id="empty-builds">
+                <span aria-hidden="true">✧</span>
+                <h3>La galerie est encore vide</h3>
+                <p>Les builds publiés apparaîtront ici.</p>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
